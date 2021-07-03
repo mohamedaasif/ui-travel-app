@@ -29,3 +29,18 @@ export const footer_data = [
     list4: "Germany",
   },
 ];
+
+export const nav_items = [
+  {
+    nav_link: "WEATHER",
+    to: "weather",
+  },
+  {
+    nav_link: "DESTINATIONS",
+    to: "destination",
+  },
+  {
+    nav_link: "GET A QUOTE",
+    to: "quote",
+  },
+];

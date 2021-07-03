@@ -1,6 +1,6 @@
 import "./App.css";
-import HeaderBanner from "./components/HeaderBanner/HeaderBanner";
-import NavigationBar from "./components/NavigationBar/NavigationBar";
+import HeaderBanner from "./components/HeaderBanner";
+import NavigationBar from "./components/NavigationBar";
 import WelcomePage from "./components/WelcomePage";
 import WeatherChannel from "./components/WeatherChannel";
 import FeaturedDestinations from "./components/FeaturedDestinations";
