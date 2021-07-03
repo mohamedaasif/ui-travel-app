@@ -13,7 +13,7 @@
 .form_container {
   font-family: var(--primary-font);
   color: rgb(185, 185, 185);
-  width: 40%;
+  width: 50%;
   margin: 0 auto;
 }
 
@@ -60,6 +60,6 @@
 
 @media (min-width: 600px) and (max-width: 992px) {
   .form_container {
-    width: 50%;
+    width: 65%;
   }
 }
