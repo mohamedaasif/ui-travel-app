@@ -1,0 +1,12 @@
+.destination_card img {
+  width: 200px;
+  height: 180px;
+  border-radius: 10px 10px 10px 0;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.destination_card p {
+  font-family: var(--primary-font);
+  color: rgb(116, 116, 116);
+}

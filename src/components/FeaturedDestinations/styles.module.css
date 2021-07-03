@@ -1,0 +1,30 @@
+.wrapper {
+  width: var(--width_80);
+  margin: 50px auto;
+}
+
+.wrapper h2 {
+  font-family: var(--secondary-font);
+  color: var(--primary-color);
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.card_container {
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.card_container::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+@media (max-width: 800px) {
+  .wrapper {
+    width: var(--width_90);
+  }
+}

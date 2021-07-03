@@ -1,0 +1,41 @@
+.weather_card {
+  display: grid;
+  place-items: center;
+  color: #fff;
+  padding: 25px 0;
+}
+
+.weather_card p:first-child {
+  font-size: 24px;
+}
+
+.weather_card img {
+  width: 50px;
+  padding: 10px 0;
+}
+
+.weather_card p:last-child {
+  font-size: 60px;
+  position: relative;
+}
+
+.weather_card p:last-child span {
+  font-size: 28px;
+  position: absolute;
+}
+
+@media (max-width: 800px) {
+  .weather_card p:first-child {
+    font-size: 20px;
+  }
+  .weather_card img {
+    width: 30px;
+  }
+  .weather_card p:last-child {
+    font-size: 25px;
+  }
+
+  .weather_card p:last-child span {
+    font-size: 18px;
+  }
+}

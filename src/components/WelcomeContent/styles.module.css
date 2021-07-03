@@ -1,0 +1,48 @@
+.welcome_content {
+  font-family: var(--primary-font);
+}
+
+.welcome_content h1 {
+  font-size: 60px;
+}
+
+.welcome_content p {
+  padding: 30px 0;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+@media (max-width: 600px) {
+  .welcome_content h1 {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .welcome_content p {
+    padding: 20px 0;
+    font-size: 20px;
+    text-align: center;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 992px) {
+  .welcome_content h1 {
+    font-size: 35px;
+    text-align: center;
+  }
+  .welcome_content p {
+    padding: 25px 0;
+    font-size: 20px;
+    text-align: center;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1250px) {
+  .welcome_content h1 {
+    font-size: 35px;
+  }
+  .welcome_content p {
+    padding: 25px 0;
+    font-size: 20px;
+  }
+}

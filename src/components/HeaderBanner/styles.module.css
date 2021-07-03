@@ -1,0 +1,15 @@
+.container {
+  background: var(--theme-color);
+  color: #fff;
+  font-family: var(--primary-font);
+  text-align: center;
+  padding: 30px;
+}
+.container p {
+  font-size: 18px;
+}
+
+.container h6 {
+  padding-top: 5px;
+  font-size: 16px;
+}
