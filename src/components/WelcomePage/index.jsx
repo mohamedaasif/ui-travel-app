@@ -4,7 +4,7 @@ import WelcomeContent from "../WelcomeContent";
 
 const WelcomePage = () => {
   return (
-    <div className={styles.container}>
+    <div className={styles.wrapper}>
       <div>
         <img src={WelcomeImage} alt="WelcomeImage" />
       </div>

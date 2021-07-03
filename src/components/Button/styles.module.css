@@ -11,7 +11,7 @@
 }
 
 @media (max-width: 992px) {
-  .btn_container {
+  .btn_wrapper {
     width: 100%;
     text-align: center;
   }

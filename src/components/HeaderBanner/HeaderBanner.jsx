@@ -31,7 +31,7 @@ const HeaderBanner = () => {
   }, 1000);
 
   return (
-    <div className={styles.container}>
+    <div className={styles.wrapper}>
       <p>
         Book now to get exciting travel deals. Upto 40% off on credit card
         payments

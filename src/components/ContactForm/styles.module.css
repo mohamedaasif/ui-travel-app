@@ -39,18 +39,6 @@
   text-align: center;
 }
 
-.form_btn button {
-  background: var(--theme-color);
-  color: #fff;
-  padding: 12px 40px;
-  border-radius: 3px;
-  outline: none;
-  border: none;
-  font-family: var(--primary-font);
-  font-size: 16px;
-  cursor: pointer;
-}
-
 .error_msg {
   color: red;
   font-size: 14px;

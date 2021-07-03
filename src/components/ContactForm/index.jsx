@@ -2,6 +2,7 @@ import styles from "./styles.module.css";
 import { useForm } from "react-hook-form";
 import { useState } from "react";
 import SuccessMsg from "../SuccessMsg";
+import Button from "../Button";
 
 const ContactForm = () => {
   const [successMsg, setSuccessMsg] = useState(false);
@@ -75,7 +76,7 @@ const ContactForm = () => {
         {successMsg ? <SuccessMsg /> : null}
 
         <div className={styles.form_btn}>
-          <button type="submit">Submit</button>
+          <Button buttonText="Submit" />
         </div>
       </form>
     </div>

@@ -1,4 +1,4 @@
-.container {
+.wrapper {
   width: var(--width_80);
   margin: 50px auto;
   display: flex;
@@ -6,36 +6,36 @@
   align-items: center;
 }
 
-.container img {
+.wrapper img {
   width: 500px;
 }
 
 @media (max-width: 600px) {
-  .container {
+  .wrapper {
     width: 100%;
     flex-direction: column;
     padding: 0 20px;
   }
-  .container img {
+  .wrapper img {
     width: 350px;
     margin-bottom: 50px;
   }
 }
 
 @media (min-width: 600px) and (max-width: 992px) {
-  .container {
+  .wrapper {
     width: 100%;
     flex-direction: column;
     padding: 0 20px;
   }
-  .container img {
+  .wrapper img {
     width: 400px;
     margin-bottom: 50px;
   }
 }
 
 @media (min-width: 992px) and (max-width: 1250px) {
-  .container img {
+  .wrapper img {
     width: 400px;
     margin-bottom: 50px;
     margin-right: 50px;

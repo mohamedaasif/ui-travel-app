@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 
 const NavigationBar = () => {
   return (
-    <div className={styles.container}>
+    <div className={styles.wrapper}>
       <ul className={styles.nav_links}>
         <li className={styles.nav_item}>
           <Link to="weather" smooth={true}>
